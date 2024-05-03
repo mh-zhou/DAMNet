@@ -126,9 +126,9 @@ class LinearBottleNeck_2(nn.Module):
 
         return out_feature
 
-# 定义 MobileV2Net
+# 定义 DAMNet
 
-class MobileV2Net(nn.Module):
+class DAMNet(nn.Module):
     def __init__(self, class_num=4):
         super().__init__()
         self.pre = nn.Sequential(
@@ -182,7 +182,7 @@ class MobileV2Net(nn.Module):
         return nn.Sequential(*layers)
 
 if __name__ == '__main__':
-    model = MobileV2Net()
+    model = DAMNet()
     print(model)
 
     a = torch.randn((1, 3, 224, 224))
