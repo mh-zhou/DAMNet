@@ -8,7 +8,7 @@ import torch.nn.utils.prune as prune
 from tqdm import tqdm
 from PIL import Image
 import time
-from model import MobileV2Net  
+from model import DAMNet  
 import torch.nn as nn
 import torch.optim as optim
 
@@ -84,7 +84,7 @@ def count_sparsity(model: torch.nn.Module, p=True):
 
 def main():
     weights_path = "experiencedata/ours/epoch200/best_model_weights.pth"
-    model = MobileV2Net(class_num=4).to(device)
+    model = DAMNet(class_num=4).to(device)
     model.load_state_dict(torch.load(weights_path, map_location=device))
     # 定义损失函数和优化器
     criterion = nn.CrossEntropyLoss()
