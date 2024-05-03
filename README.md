@@ -15,4 +15,4 @@ This file contains the code used for model pruning essential to optimizing our n
 
 ---
 
-"Given that the training weights from our 2D model are employed in the transfer learning for our 3D image classification, we provide a link to download this weight. The primary training weights for our 2D model can be accessed at https://drive.google.com/file/d/1VJVKy1XfpiUggStLOHPxe9iZRlQ9besu/view?usp=sharing.Thank you for your thorough review and valuable feedback.
+Given that the training weight from our 2D model are employed in the transfer learning for our 3D image classification, we provide a link to download this weight. The primary training weight for our 2D model can be accessed at https://drive.google.com/file/d/1VJVKy1XfpiUggStLOHPxe9iZRlQ9besu/view?usp=sharing. Thank you for your thorough review and valuable feedback.
