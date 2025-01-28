@@ -20,6 +20,8 @@ Given that the training weight from our 2D model are employed in the transfer le
 To facilitate access for reviewers and interested readers to replicate the results, we have made the raw data from our primary experiments publicly available. The data can be downloaded from Google Drive via the following link(Google Drive): https://drive.google.com/drive/folders/18Wjg3FI9tnxMR__I3B9wBZUmjHLcxB-1?usp=sharing , including both 2D and 3D AD datasets. The data and download links for supplementary experiments are provided in the supplementary materials.
 
 Thanks for the quote.Zhou M, Zheng T, Wu Z, et al. DAMNet: Dynamic mobile architectures for Alzheimer's disease[J]. Computers in Biology and Medicine, 2025, 185: 109517.（中科院TOP，IF=7.8)
+
+
 @article{ZHOU2025109517,
 title = {DAMNet: Dynamic mobile architectures for Alzheimer's disease},
 journal = {Computers in Biology and Medicine},
